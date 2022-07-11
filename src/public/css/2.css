@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding-bottom: 40px;
+}
+
+.container a {
+    display: block;
+    text-align: center;
+    font-family: "GentiumBookBasic";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+}
+
+.container a:visited {
+    color: black;
+}
+
+@font-face {
+    font-family: "PressStart";
+    src: url(/fonts/PressStart2P-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "PressStart";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    color: cornsilk;
+    text-align: center;
+}
+
+.container p {
+    font-family: "PressStart";
+    font-weight: 400;
+    font-style: normal;
+    color: forestgreen;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.container a {
+    font-family: "PressStart";
+    font-weight: 400;
+    font-style: normal;
+    color: darkgreen;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container a:visited {
+    color: darkgreen;
+}
+
+.text-animated {
+    display: none;
+}
