@@ -21,6 +21,10 @@ jobs:
       - name: build
         run: vanillaplusjs build --no-symlinks
 
+      - name: initialize CNAME
+        run: |
+          echo websitedesignlibrary.com > out/www/CNAME
+          
       - name: push
         uses: s0/git-publish-subdir-action@develop
         env:
