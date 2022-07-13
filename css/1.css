@@ -1,1 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e6ccb2;
+}
 
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-family: "GentiumBookBasic";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+}
+
+@font-face {
+    font-family: "GentiumBookBasic";
+    src: url(/fonts/GentiumBookBasic-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    margin-left: 60px;
+    margin-right: 60px;
+    columns: 50px 2;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding-bottom: 40px;
+}
+
+.container a {
+    display: block;
+    text-align: center;
+    font-family: "GentiumBookBasic";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+}
+
+.container a:visited {
+    color: black;
+}
