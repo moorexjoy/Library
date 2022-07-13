@@ -54,6 +54,17 @@ body {
     min-height: 100vh;
 }
 
+@media screen and (max-width: 599px) {
+    .content {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .content>* {
+        min-height: unset;
+    }
+}
+
 .left-column {
     display: flex;
     flex-flow: column nowrap;
