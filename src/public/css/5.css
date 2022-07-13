@@ -67,6 +67,7 @@ h1 {
     padding: 24px;
     font-size: 18px;
     gap: 24px;
+    border-radius: 8px;
 }
 
 .main-content p {
